@@ -1,0 +1,105 @@
+----------
+1. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/MainActivity.java (at line 99)
+	import com.google.android.material.bottomnavigation.BottomNavigationView.OnNavigationItemSelectedListener;
+	       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The type BottomNavigationView.OnNavigationItemSelectedListener is deprecated
+----------
+2. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/MainActivity.java (at line 170)
+	private AnalogClock analogclock1;
+	        ^^^^^^^^^^^
+The type AnalogClock is deprecated
+----------
+3. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/MainActivity.java (at line 171)
+	private DigitalClock digitalclock1;
+	        ^^^^^^^^^^^^
+The type DigitalClock is deprecated
+----------
+4. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/MainActivity.java (at line 211)
+	private ProgressDialog pdialog;
+	        ^^^^^^^^^^^^^^
+The type ProgressDialog is deprecated
+----------
+5. ERROR in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/MainActivity.java (at line 300)
+	collapsingtoolbar1 = findViewById(R.id.collapsingtoolbar1);
+	                                       ^^^^^^^^^^^^^^^^^^
+collapsingtoolbar1 cannot be resolved or is not a field
+----------
+6. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/MainActivity.java (at line 311)
+	vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+	                                               ^^^^^^^^^^^^^^^^
+The field Context.VIBRATOR_SERVICE is deprecated
+----------
+----------
+7. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/SketchwareUtil.java (at line 22)
+	View _view = _toast.getView();
+	                    ^^^^^^^^^
+The method getView() from the type Toast is deprecated
+----------
+8. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/SketchwareUtil.java (at line 31)
+	_view.setBackgroundDrawable(_gradientDrawable);
+	      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method setBackgroundDrawable(Drawable) from the type View is deprecated
+----------
+9. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/SketchwareUtil.java (at line 53)
+	View _view = _toast.getView();
+	                    ^^^^^^^^^
+The method getView() from the type Toast is deprecated
+----------
+10. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/SketchwareUtil.java (at line 64)
+	_view.setBackgroundDrawable(_gradientDrawable);
+	      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method setBackgroundDrawable(Drawable) from the type View is deprecated
+----------
+11. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/SketchwareUtil.java (at line 126)
+	NetworkInfo _activeNetworkInfo = _connectivityManager.getActiveNetworkInfo();
+	^^^^^^^^^^^
+The type NetworkInfo is deprecated
+----------
+12. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/SketchwareUtil.java (at line 126)
+	NetworkInfo _activeNetworkInfo = _connectivityManager.getActiveNetworkInfo();
+	                                                      ^^^^^^^^^^^^^^^^^^^^^^
+The method getActiveNetworkInfo() from the type ConnectivityManager is deprecated
+----------
+13. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/SketchwareUtil.java (at line 127)
+	return _activeNetworkInfo != null && _activeNetworkInfo.isConnected();
+	                                                        ^^^^^^^^^^^^^
+The method isConnected() from the type NetworkInfo is deprecated
+----------
+14. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/SketchwareUtil.java (at line 148)
+	_inputMethodManager.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method toggleSoftInput(int, int) from the type InputMethodManager is deprecated
+----------
+15. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/SketchwareUtil.java (at line 153)
+	_inputMethodManager.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
+	                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method toggleSoftInput(int, int) from the type InputMethodManager is deprecated
+----------
+----------
+16. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/FileUtil.java (at line 232)
+	return Environment.getExternalStorageDirectory().getAbsolutePath();
+	                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getExternalStorageDirectory() from the type Environment is deprecated
+----------
+17. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/FileUtil.java (at line 240)
+	return Environment.getExternalStoragePublicDirectory(type).getAbsolutePath();
+	                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getExternalStoragePublicDirectory(String) from the type Environment is deprecated
+----------
+18. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/FileUtil.java (at line 252)
+	path = Environment.getExternalStorageDirectory() + "/" + split[1];
+	                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getExternalStorageDirectory() from the type Environment is deprecated
+----------
+19. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/FileUtil.java (at line 305)
+	final String column = MediaStore.Images.Media.DATA;
+	                                              ^^^^
+The field MediaStore.MediaColumns.DATA is deprecated
+----------
+----------
+20. WARNING in /storage/emulated/0/.sketchware/mysc/629/app/src/main/java/com/therionro/xcoreapi/BluetoothConnect.java (at line 22)
+	this.bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+	                                         ^^^^^^^^^^^^^^^^^^^
+The method getDefaultAdapter() from the type BluetoothAdapter is deprecated
+----------
+20 problems (1 error, 19 warnings)
