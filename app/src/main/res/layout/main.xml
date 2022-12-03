@@ -28,7 +28,7 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:padding="8dp"
-				android:text="XCore 1.0.0"
+				android:text="XCore 1.0.1"
 				android:textSize="16sp"
 				android:textStyle="bold"
 				android:textColor="#673AB7"
@@ -456,17 +456,20 @@
 				android:id="@+id/textinputlayout1"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
+				android:orientation="vertical"
 				style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
 			<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 				android:id="@+id/swiperefreshlayout1"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
-				android:padding="8dp" />
+				android:padding="8dp"
+				android:orientation="vertical" />
 			<androidx.cardview.widget.CardView
 				android:id="@+id/cardview1"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:padding="8dp"
+				android:orientation="vertical"
 				app:cardElevation="10dp"
 				app:cardCornerRadius="20dp" />
 			<TextView
@@ -505,7 +508,22 @@
 				android:id="@+id/radiogroup1"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:padding="8dp" />
+				android:padding="8dp"
+				android:orientation="vertical" />
+			<TextView
+				android:id="@+id/textview20"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="-Web-"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#673AB7"
+				android:layout_gravity="center_horizontal" />
+			<WebView
+				android:id="@+id/webview1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent" />
 		</LinearLayout>
 	</ScrollView>
 </LinearLayout>
