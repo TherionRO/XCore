@@ -1,5 +1,5 @@
 # XCore
-XCore is a Open-Source , simple and lightweight library for Android Apps.
+XCore is a Open-Source , simple and lightweight library for Android Apps.This library will give you acces to a few android elements and some custom ones you can play with and see if you can improve your apps or create them more easily.
 # Support
 XCore is compatible with Android Studio & Sketchware Pro
 SDK Compatibility :
