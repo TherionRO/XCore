@@ -160,6 +160,7 @@ public class MainActivity extends AppCompatActivity {
 	private SeekBar seekbar1;
 	private TextView textview10;
 	private Button button1;
+	private Button button3;
 	private MaterialButton materialbutton1;
 	private Button button2;
 	private MaterialButton materialbutton2;
@@ -289,6 +290,7 @@ public class MainActivity extends AppCompatActivity {
 		seekbar1 = findViewById(R.id.seekbar1);
 		textview10 = findViewById(R.id.textview10);
 		button1 = findViewById(R.id.button1);
+		button3 = findViewById(R.id.button3);
 		materialbutton1 = findViewById(R.id.materialbutton1);
 		button2 = findViewById(R.id.button2);
 		materialbutton2 = findViewById(R.id.materialbutton2);
@@ -362,6 +364,23 @@ public class MainActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View _view) {
 				
+			}
+		});
+		
+		button3.setOnLongClickListener(new View.OnLongClickListener() {
+			@Override
+			public boolean onLongClick(View _view) {
+				SketchwareUtil.showMessage(getApplicationContext(), "Hold Click Toast.");
+				return true;
+			}
+		});
+		
+		button3.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				SketchwareUtil.showMessage(getApplicationContext(), "Toast");
+				SketchwareUtil.showKeyboard(getApplicationContext());
+				SketchwareUtil.hideKeyboard(getApplicationContext());
 			}
 		});
 		
