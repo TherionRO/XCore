@@ -27,3 +27,4 @@ Installation instructions :
 # XCore vs OpenCore
 
 OpenCore is the new modern XCore with more elements,features,components,codes,google maps and admob support.
+[Get OpenCore](https://github.com/TherionRO/OpenCore)
