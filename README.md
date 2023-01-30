@@ -24,4 +24,4 @@ Installation instructions :
 
 4.After copying the elements you need,you can delete XCore.
 
-
+# XCore vs OpenCore
