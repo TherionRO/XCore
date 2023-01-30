@@ -25,3 +25,5 @@ Installation instructions :
 4.After copying the elements you need,you can delete XCore.
 
 # XCore vs OpenCore
+
+OpenCore is the new modern XCore with more elements,features,components,codes,google maps and admob support.
