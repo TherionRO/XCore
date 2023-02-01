@@ -103,6 +103,7 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomnavigation.BottomNavigationView.OnNavigationItemSelectedListener;
 import com.google.android.material.button.*;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayout.OnTabSelectedListener;
 import com.google.android.material.textfield.*;
@@ -132,6 +133,8 @@ public class MainActivity extends AppCompatActivity {
 	public final int REQ_CD_FILEALL = 102;
 	
 	private Timer _timer = new Timer();
+	
+	private FloatingActionButton _fab;
 	
 	private ScrollView vscroll1;
 	private LinearLayout linear1;
@@ -261,6 +264,8 @@ public class MainActivity extends AppCompatActivity {
 	}
 	
 	private void initialize(Bundle _savedInstanceState) {
+		_fab = findViewById(R.id._fab);
+		
 		vscroll1 = findViewById(R.id.vscroll1);
 		linear1 = findViewById(R.id.linear1);
 		imageview1 = findViewById(R.id.imageview1);
